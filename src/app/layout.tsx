@@ -4,6 +4,9 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import { Toaster } from "@/components/ui/toaster";
 
+// Force dynamic rendering for all pages to resolve suspense boundary errors with useSearchParams.
+export const dynamic = 'force-dynamic';
+
 const fontBody = Inter({
   subsets: ["latin"],
   variable: "--font-body",
