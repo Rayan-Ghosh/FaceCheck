@@ -1,0 +1,8 @@
+
+{
+  "apphosting": {
+    "source": ".",
+    "project": "facecheck-attendance-f71bk",
+    "framework": "nextjs"
+  }
+}
